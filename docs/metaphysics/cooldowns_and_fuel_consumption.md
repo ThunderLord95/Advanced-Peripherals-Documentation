@@ -1,13 +1,13 @@
 # Cooldowns and fuel consumption
 
-All world changing operations will consume turtle fuel (of course, if you not disable fuel usage in CC:Tweaked configuration).
+All world changing operations will consume turtle fuel (of course, not if you disable fuel usage in the CC:Tweaked configuration).
 
-Also, most of this operations have cooldowns, so you should consider this in your code. Hopefully, every active cooldown can be recived via peripheral methods.
+Also, most of these operations have cooldowns, so you should consider this when making your code. Hopefully, every active cooldown can be recived via peripheral methods.
 
-You think, that cooldowns are too big? This is when fuel consuming rate come to help!
+If you think that the cooldowns are too long, then this is why the fuel consuming rate is here to help!
 
-Bigger fuel consuming rate will reduce cooldown, but obviously increate fuel consumption. For example, if click operation required 1 fuel point for perform and will have 5 seconds cooldown, with fuel consumption 2 you can perform click operation one in 2.5 seconds, but in cost of 2 fuel point.
+A bigger fuel consuming rate will reduce the cooldown, but obviously increase fuel consumption. For example, if a click operation requires 1 fuel point to perform it will have a 5 second cooldown, but with a fuel consumption of 2, you can perform a click operation in half the time at 2.5 seconds, but with a cost of 2 fuel points.
 
-However, fuel consumption rate is not so simple! Every mechanic soul has max fuel consumption limitation, that can be retrieved via `getConfiguration()` method.
+However, the fuel consumption rate is not so simple! Every mechanic soul has a max fuel consumption limitation that can be retrieved via the `getConfiguration()` method.
 
-Also, fuel point will grow faster, than cooldown drops. Fuel consumption 3 will required 4 fuel points, fuel consumption 4 will required fuel points, etc.
+Also, the amount of fuel points consumed will grow more than the cooldown reduces. For example, a fuel consumption of 3 will require 4 fuel points, and the fuel points used will keep increasing the higher the fuel consumption is set to.

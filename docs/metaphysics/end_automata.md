@@ -3,9 +3,9 @@
 !!! picture inline end
     ![Header](){ align=right }
 
-The end automata is turtle with End Mechanic Soul upgrade!
+The end automata is a turtle with the End Mechanic Soul upgrade!
 
-This upgrade allow everything, that [Weak automata](https://docs.srendi.de/turtles/weak_automata/) does and also provide ability to teleport to stored positions by marks! But this upgrade only works in one dimension now.
+This upgrade allows everything, that [Weak automata](https://docs.srendi.de/turtles/weak_automata/) does and also provides the ability to teleport to stored positions by marks! However this upgrade only works in one dimension now.
 
 ## Overview
 
@@ -22,7 +22,7 @@ This upgrade allow everything, that [Weak automata](https://docs.srendi.de/turtl
 | warpToPoint(string name)      | true or nil, err         | Teleport turtle to stored point if turtle has enough fuel      |
 | estimateWarpCost(string name) | int or nil, err          | Returns cost of warp in fuel                                   |
 | distanceToPoint(string name)  | int or nil, err          | Return manhattan distance to point                             |
-| getWarpCooldown()             | int                      | Returns current waro operation cooldown                        |
+| getWarpCooldown()             | int                      | Returns current warp operation cooldown                        |
 
 ## Changelog/Trivia
 

@@ -3,9 +3,9 @@
 !!! picture inline end
     ![Header](){ align=right }
 
-The husbandry automata is turtle with Husbandry Mechanic Soul upgrade!
+The husbandry automata is a turtle with the Husbandry Mechanic Soul upgrade!
 
-This upgrade allow everything, that [Weak automata](https://docs.srendi.de/turtles/weak_automata/) does and also provide ability interact with animals and even capture it.
+This upgrade allows everything that the [Weak automata](https://docs.srendi.de/turtles/weak_automata/) does, and also provides the ability to interact with animals and even capture them.
 
 ## Overview
 
@@ -17,9 +17,9 @@ This upgrade allow everything, that [Weak automata](https://docs.srendi.de/turtl
 
 | Function             | Returns                  | Description                                                    |
 | -------------------- | ------------------------ | -------------------------------------------------------------- |
-| useOnAnimal()        | true, result or nil, err | Try use selected item on animal at the front turtle
+| useOnAnimal()        | true, result or nil, err | Try to use selected item on animal at the front turtle
 | inspectAnimal()      | table or nil, err        | Inspect animal at the front of turtle
-| searchAnimals()      | table or nil, err        | Returns list of animals around turtle
+| searchAnimals()      | table or nil, err        | Returns list of animals around the turtle
 | captureAnimal()      | true or nil, err         | Capture animal at the front of turtle
 | releaseAnimal()      | true or nil, err         | Release captured animal
 | getCapturedAnimal()  | table or nil, err        | Returns information about captured animal
